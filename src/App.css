@@ -1,0 +1,72 @@
+.gradient {
+  background: black;
+  height: 300px;
+}
+
+.gredtext {
+  padding: 2rem;
+  color: white;
+  word-spacing: 0;
+  max-width: 800px;
+  font-size: 26px;
+  margin: 0 auto;
+}
+
+.footers {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  height: 300px;
+}
+
+.my {
+  background: rgb(168, 188, 188);
+  background: linear-gradient(0deg, rgba(168, 188, 188, 1) 0%, rgba(166, 101, 206, 1) 0%);
+}
+
+.menu {
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens up to 600px width */
+@media (max-width: 600px) {
+  .gradient {
+    height: 150px;
+  }
+
+  .gredtext {
+    padding: 1rem;
+    font-size: 18px;
+  }
+
+  .footers {
+    height: 200px;
+  }
+}
+
+/* For screens between 601px and 1024px width */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .gredtext {
+    font-size: 22px;
+  }
+}
+
+/* For screens 1025px and above */
+@media (min-width: 1025px) {
+  .gradient {
+    height: 400px;
+  }
+
+  .gredtext {
+    font-size: 28px;
+  }
+
+  .footers {
+    height: 400px;
+  }
+}
