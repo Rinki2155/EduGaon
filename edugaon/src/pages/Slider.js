@@ -20,21 +20,21 @@ const Slider = () => {
       title: "LEarn and  start earning",
       heading: "Become Software Enginner",
       description: "Spend 2 year with us and start earing from 3rd year.",
-      image: "/images/1.png",
+      image: "/images/2.jpg",
     },
     {
       title: "Indutry-relevant skills",
       heading: "Learn with Indutry Expert ",
       description:
         "Power ahead with new age Indutry-relevant skills from Industry Expert.",
-      image: "/images/1.png",
+      image: "/images/3.jpg",
     },
     {
       title: "Focus on real skills",
       heading: "Focus on real-world skills, not just academic credentials.",
       description:
         "Acquiring practical skills and hands-on experience over merely focusing on academic qualifications or theoretical knowledge",
-      image: "/images/1.png",
+      image: "/images/4.jpg",
     },
   ];
 
